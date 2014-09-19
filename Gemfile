@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '1.9.3'
 # Core gems
 gem 'rails', '3.2.13'
 
@@ -40,6 +40,7 @@ end
 
 group :production do
   gem 'kandan-count'
+gem 'rails_12factor'
 end
 
 group :development do
